@@ -8,8 +8,6 @@ function changeColor () {
     //.toString(16) means take first 16 digit convert it to - hexadecimal string
     //padstart(6, '0') - Ensures the hex string is always 6 
     //characters long by padding with leading zeros if needed (e.g., "3f" → "00003f").
-
-    console.log(Math.floor(Math.random() * 16777215).toString(16).padStart(6, '0'));
 }
 changeColorbtn.addEventListener('click', changeColor);
 
